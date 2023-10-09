@@ -1,0 +1,27 @@
+.skills{
+    margin-top: 40px;
+    height: 100%;
+    width: auto;
+}
+.skills h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.skills h1::first-letter {
+    font-weight: bolder;
+    color: #fcc316;
+    font-size: 50px;
+    border-bottom: 3px solid #fcc316;
+}
+
+.skills h1:hover {
+    color: #fcc316;
+}
+.slide-skills{
+    padding-top: 200px;
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none;
+}

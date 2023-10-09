@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.contact {
+    padding-top: 20px;
+    height: 100%;
+}
+
+.contact h1::first-letter {
+    font-weight: bolder;
+    color: #fcc316;
+    font-size: 50px;
+    border-bottom: 3px solid #fcc316;
+}
+
+.contact h1:hover {
+    color: #fcc316;
+}
+
+.contact h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-control {
+    border: 0;
+    width: 100%;
+    border-bottom: 2px solid #fcc316;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border: 0;
+    border-bottom: 2px solid #fcc316;
+    outline: #fcc316;
+    box-shadow: 0 0 0 #fcc316;
+}
+
+.form-us {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 65%;
+}
+
+.form-us input::placeholder {
+    color: #fcc316;
+}
+.form-us textarea::placeholder{
+    color: #fcc316;
+}
+textarea {
+    resize: none;
+}
