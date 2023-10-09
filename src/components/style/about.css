@@ -1,0 +1,80 @@
+
+.about {
+    background-color: #282828;
+    margin-top: 40px;
+    height: 100%;
+    width: auto;
+
+}
+
+.about h1::first-letter {
+    font-weight: bolder;
+    color: #fcc316;
+    font-size: 50px;
+    border-bottom: 3px solid #fcc316;
+}
+
+.about h1:hover {
+    color: #fcc316;
+}
+
+.about h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.All-About {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img img {
+    width: 350px;
+    height: 450px;
+    border: 5px solid #fcc316;
+}
+
+.name {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.age {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.address {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.eduction {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.phone {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.email {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

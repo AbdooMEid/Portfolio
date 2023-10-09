@@ -1,0 +1,54 @@
+.navbar {
+    background-color: transparent;
+
+}
+
+.navbar .navbar-brand {
+    font-weight: bolder;
+    font-size: x-large;
+    color: #fcc316;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fcc316;
+}
+
+.navbar .navbar-brand:window-inactive {
+    color: #fcc316;
+}
+
+.navbar .nav-link {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #e0dad0;
+}
+
+.navbar .nav-link:hover {
+    color: #fcc316;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #fcc316;
+}
+.navbar .nav-link::first-letter {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fcc316;
+}
+
+.navbar .nav-link::first-letter {
+    border-bottom: 4px solid #fcc316;
+}
+
+.btn:focus, a:focus
+{
+    outline: none;
+}
+.navbar-toggler:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+li {
+    cursor: pointer;
+}
