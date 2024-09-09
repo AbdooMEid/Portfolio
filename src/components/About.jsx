@@ -1,7 +1,7 @@
 import "./style/about.css";
 import Image from "./image/2021-09-01 071.jpg";
 import { Link } from "react-router-dom";
-import Resume from "./image/Abdelrahman_Mohammed Eid Mohammed_Resume-1.pdf";
+import Resume from "./image/Abdelrahman-Mohammed-Eid-Mohammed_Resume.pdf";
 import { useEffect, useState } from "react";
 
 function About() {
